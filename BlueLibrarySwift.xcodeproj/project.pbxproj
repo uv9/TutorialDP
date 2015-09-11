@@ -19,6 +19,7 @@
 		A0622D2E1B96C0AC00A5377E /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0622D2D1B96C0AC00A5377E /* LibraryAPI.swift */; };
 		A0622D301B96C3A900A5377E /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0622D2F1B96C3A900A5377E /* PersistencyManager.swift */; };
 		A0641B781B980C8100B75613 /* AlbumExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0641B771B980C8100B75613 /* AlbumExtension.swift */; };
+		DD91E0541BA2D9D200BE7521 /* HorizontalScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91E0531BA2D9D200BE7521 /* HorizontalScroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A0622D2D1B96C0AC00A5377E /* LibraryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryAPI.swift; sourceTree = "<group>"; };
 		A0622D2F1B96C3A900A5377E /* PersistencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistencyManager.swift; sourceTree = "<group>"; };
 		A0641B771B980C8100B75613 /* AlbumExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumExtension.swift; sourceTree = "<group>"; };
+		DD91E0531BA2D9D200BE7521 /* HorizontalScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalScroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				A0622D281B96B12700A5377E /* AlbumView.swift */,
+				DD91E0531BA2D9D200BE7521 /* HorizontalScroller.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				101DD6CB1A052EDE00161F0D /* AppDelegate.swift in Sources */,
 				A0622D2E1B96C0AC00A5377E /* LibraryAPI.swift in Sources */,
 				101DD6EC1A052F0E00161F0D /* HTTPClient.swift in Sources */,
+				DD91E0541BA2D9D200BE7521 /* HorizontalScroller.swift in Sources */,
 				A0622D291B96B12700A5377E /* AlbumView.swift in Sources */,
 				A0641B781B980C8100B75613 /* AlbumExtension.swift in Sources */,
 				A0622D271B96AFD300A5377E /* Album.swift in Sources */,

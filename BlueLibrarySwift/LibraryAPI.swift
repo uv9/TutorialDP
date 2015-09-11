@@ -30,6 +30,11 @@ class LibraryAPI: NSObject {
         isOnline = false
         
         super.init()
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "downloadImage", name: "BLDownloadImageNotification", object: nil)
+    }
+    
+    deinit{
+        NSNotificationCenter.defaultCenter().removeObserver(self)
     }
     
     func getAlbums() -> [Album] {
